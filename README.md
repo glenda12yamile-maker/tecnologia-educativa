@@ -1,2 +1,171 @@
 # tecnologia-educativa
 Proyectos escolares de estudiantes de licenciatura
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio Educativo: Psicología General</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f8fb;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #5e35b1;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            background: #4527a0;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav a {
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 25px;
+        }
+        h2 {
+            color: #4527a0;
+        }
+        .recursos img {
+            max-width: 300px;
+            display: block;
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #4527a0;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        button {
+            background-color: #5e35b1;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            margin: 4px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #311b92;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Sitio Educativo: Psicología General</h1>
+    <p>Recursos, materiales y actividades para comprender los procesos psicológicos básicos</p>
+</header>
+
+<nav>
+    <a href="#tema">Tema</a>
+    <a href="#justificacion">Justificación</a>
+    <a href="#publico">Público</a>
+    <a href="#objetivos">Objetivos</a>
+    <a href="#recursos">Recursos</a>
+    <a href="#actividades">Actividades</a>
+</nav>
+
+<section id="tema">
+    <h2>Tema</h2>
+    <p>Introducción a la Psicología General y los procesos psicológicos básicos.</p>
+</section>
+
+<section id="justificacion">
+    <h2>Justificación del Proyecto</h2>
+    <p>
+        Este sitio web tiene como propósito apoyar el aprendizaje de Psicología General mediante 
+        recursos digitales claros, accesibles e interactivos. Se presenta contenido introductorio 
+        que permitirá al estudiante comprender los conceptos básicos de la psicología y su 
+        aplicación en la vida cotidiana.
+    </p>
+</section>
+
+<section id="publico">
+    <h2>Público Objetivo</h2>
+    <ul>
+        <li>Estudiantes de nivel medio superior o universitario inicial.</li>
+        <li>Personas interesadas en comprender los procesos mentales y la conducta humana.</li>
+        <li>Docentes que buscan recursos digitales para apoyar su clase.</li>
+    </ul>
+</section>
+
+<section id="objetivos">
+    <h2>Objetivos de Aprendizaje</h2>
+    <ol>
+        <li>Definir qué es la psicología y su importancia como disciplina científica.</li>
+        <li>Identificar los procesos psicológicos básicos: percepción, memoria, aprendizaje, emoción y motivación.</li>
+        <li>Explicar la relación entre conducta, mente y ambiente.</li>
+        <li>Analizar ejemplos de fenómenos psicológicos en la vida diaria.</li>
+        <li>Resolver actividades interactivas sobre los conceptos aprendidos.</li>
+    </ol>
+</section>
+
+<section id="recursos" class="recursos">
+    <h2>Recursos Multimedia</h2>
+
+    <h3>Video Educativo</h3>
+    <video width="360" height="215" src="videoplayback.mp4" 
+        title="Introducción a la Psicología" allowfullscreen></video>
+
+    <h3>Infografía</h3>
+    <img src="https://via.placeholder.com/300x200.png?text=Procesos+Psicologicos" 
+         alt="Infografía de procesos psicológicos">
+
+    <h3>Audio de Relajación y Atención Plena</h3>
+    <audio controls>
+        <source src="Meditación guiada para controlar tu ANSIEDAD rápidamente _ Jorge Benito [-OQWTMrPTPE].mp3" type="audio/mp3">
+        Tu navegador no soporta audio.
+    </audio>
+
+    <h3>Origen de los recursos</h3>
+    <ul>
+        <li>Video: Introduccion a la Psicología</li>
+        <li>Infografía: Creación propia</li>
+        <li>Audio: FreeSound.org</li>
+        <li>Imágenes: Unsplash (libre uso)</li>
+    </ul>
+</section>
+
+<section id="actividades">
+    <h2>Actividades </h2>
+
+    <h3>Quiz Rápido</h3>
+    <p>¿Cómo se define la psicología?</p>
+    <button onclick="alert('Correcto: Es la ciencia que estudia la conducta y los procesos mentales.')">
+        Ciencia que estudia la conducta y los procesos mentales
+    </button>
+    <button onclick="alert('Incorrecto')">Estudio de la mente desde la intuición</button>
+
+    <h3>Identificación de Procesos Psicológicos</h3>
+    <p>
+        Ana escucha una canción que le provoca nostalgia y emociones intensas.<br>
+        ¿Qué procesos están involucrados?
+    </p>
+    <button onclick="alert('Correcto: Intervienen la memoria y la emoción.')">Memoria y emoción</button>
+    <button onclick="alert('Incorrecto')">Percepción visual</button>
+</section>
+
+<footer>
+    <p>Sitio educativo desarrollado como proyecto académico – Psicología General</p>
+</footer>
+
+</body>
+</html>
